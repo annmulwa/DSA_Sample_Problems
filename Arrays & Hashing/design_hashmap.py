@@ -1,3 +1,10 @@
+# We use linked lists to handle collisions through chaining
+# Time Complexity: O(1) average, O(N) worst-case
+'''
+Space Complexity: O(K + N), where K is the number
+of buckets (1000) and N is the number of key-value
+pairs stored
+'''
 class ListNode:
     def __init__(self, key=-1, val=-1, next=None):
         self.key = key
